@@ -19,6 +19,8 @@ node ./cep-api/server.js
 
 ### 2. Run Front End
 
+At a new terminal window run:
+
 ```bash
 npm install
 ```
