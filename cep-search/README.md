@@ -22,7 +22,7 @@ node ./cep-api/server.js
 At a new terminal window run:
 
 ```bash
-npm install
+npm start
 ```
 
 
