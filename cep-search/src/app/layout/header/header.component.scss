@@ -1,0 +1,32 @@
+@import 'src/styles/colors';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    padding: 10px 10vw;
+    max-height: 10vh;
+    .logo {
+        height: 100%;
+        width: auto;
+    }
+    
+    .buttons {
+        display: flex;
+        gap: 20px;
+        button {
+            color: $black;
+            font-weight: bold;
+            border-radius: 30px;
+            background-color: $button-color;
+            &:hover {
+                background-color: darken($button-color, 6%);
+            }
+            .small-icon {
+                font-size: 20px;
+                padding-top: 3px;
+            }
+        }
+    }
+}

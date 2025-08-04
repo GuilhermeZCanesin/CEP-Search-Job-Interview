@@ -1,0 +1,35 @@
+@import 'src/styles/colors';
+
+.cep-form {
+  column-gap: 20px;
+  display: flex;
+  align-items: center;
+
+  .cep-field {
+    width: 300px;
+  }
+  button {
+    color: $white;
+    background-color: $primary-color;
+    border-radius: 30px;
+  }
+  
+  button:disabled {
+    color: $black;
+    background-color: $background-color;
+    border-radius: 30px;
+  }
+
+  ::ng-deep .mat-form-field-appearance-outline.mat-form-field-invalid .mat-form-field-outline {
+    color: $error !important;
+    border-color: $error !important;
+  }
+
+  ::ng-deep .mat-form-field-label {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  ::ng-deep .mat-form-field-invalid .mat-form-field-label {
+    color: $error !important;
+  }
+}

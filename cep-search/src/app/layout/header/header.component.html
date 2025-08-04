@@ -1,0 +1,12 @@
+<mat-toolbar class="header">
+  <img src="assets/sccon.svg" alt="Logo" class="logo" />
+  <div class="buttons">
+    <button mat-button routerLink="/">Home</button>
+    <button mat-button [matMenuTriggerFor]="menu">Endereços
+      <mat-icon class="small-icon">menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item routerLink="/buscar-enderecos">Buscar Endereços</button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

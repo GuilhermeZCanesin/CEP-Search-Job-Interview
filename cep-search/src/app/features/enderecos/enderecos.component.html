@@ -1,0 +1,3 @@
+<span class="container title">Busca de Endereços</span>
+<app-busca class="container" (buscarCEP)="buscarCEP($event)"></app-busca>
+<app-lista class="container" [enderecos]="enderecos" (deletarEndereco)="deletarEndereco($event)"></app-lista>

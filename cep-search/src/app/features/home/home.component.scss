@@ -1,0 +1,23 @@
+@import 'src/styles/colors';
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+    .welcome-text {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $primary-color;
+    }
+
+    .welcome-desc {
+        font-size: 1.2rem;
+        color: $black;
+        margin-top: 10px;
+    }
+
+}

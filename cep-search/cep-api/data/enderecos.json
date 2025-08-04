@@ -1,0 +1,36 @@
+[
+  {
+    "cep": "12331-313",
+    "logradouro": "Estrada Zinzo Sakagushi",
+    "complemento": "",
+    "unidade": "",
+    "bairro": "Jardim Santana",
+    "localidade": "Jacareí",
+    "uf": "SP",
+    "estado": "São Paulo",
+    "regiao": "Sudeste",
+    "ibge": "3524402",
+    "gia": "3920",
+    "ddd": "12",
+    "siafi": "6589",
+    "id": "1754331979879",
+    "date": 1754331979879
+  },
+  {
+    "cep": "12331-313",
+    "logradouro": "Estrada Zinzo Sakagushi",
+    "complemento": "",
+    "unidade": "",
+    "bairro": "Jardim Santana",
+    "localidade": "Jacareí",
+    "uf": "SP",
+    "estado": "São Paulo",
+    "regiao": "Sudeste",
+    "ibge": "3524402",
+    "gia": "3920",
+    "ddd": "12",
+    "siafi": "6589",
+    "id": "1754332002886",
+    "date": 1754332002886
+  }
+]

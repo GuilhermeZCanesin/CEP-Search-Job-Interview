@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="cep-form">
+  <mat-form-field class="cep-field" appearance="outline">
+    <mat-label>CEP</mat-label>
+    <input matInput #cep maxlength="9" formControlName="cep" maxlength="9" placeholder="Buscar CEP"
+      (input)="formatarCEP($event)" [class.invalid]="form.get('cep')?.invalid && form.get('cep')?.touched" />
+
+    <mat-error *ngIf="form.get('cep')?.hasError('required') && form.get('cep')?.touched">
+      O CEP é obrigatório
+    </mat-error>
+    <mat-error *ngIf="form.get('cep')?.hasError('pattern') && form.get('cep')?.touched">
+      Formato inválido (ex: 12345-678)
+    </mat-error>
+  </mat-form-field>
+
+  <button mat-raised-button type="submit" [disabled]="form.invalid">
+    Buscar
+  </button>
+</form>

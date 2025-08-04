@@ -1,0 +1,21 @@
+@import 'src/styles/colors';
+
+.container {
+    margin: 0 8vw;
+    padding-left: 12px;
+    margin-top: 12px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    &.title {
+        display: flex;
+        font-size: 22px;
+        font-weight: bold;
+        border-bottom: 2px dashed $black;
+        align-items: flex-start;
+    }
+
+}

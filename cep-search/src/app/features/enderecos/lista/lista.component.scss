@@ -1,0 +1,23 @@
+th, td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.cell-cep, .header-cep {
+  text-align: center;
+  width: 30%;
+}
+
+.cell-logradouro, .header-logradouro {
+  width: 40%;
+}
+
+.cell-data, .header-data {
+  width: 20%;
+}
+
+.cell-acoes, .header-acoes {
+  width: 20%;
+  text-align: right;
+}
